@@ -4,7 +4,7 @@
 
 (Credit: TF Code inspiration from [nicknochnack](https://github.com/nicknochnack))
 
-A GAN I built from scratch in Tensorflow to generate cat (and dog) images. The corresponding math is annotated in the notebook itself and follows the standard GAN formulation based on trying to minmax the Jensen-Shannon Divergence (JSD) using binary cross entropy as our loss function for both the generator and the discriminator.
+A 3.5 million parameter GAN I built from scratch in Tensorflow to generate cat (and dog) images. The corresponding math is annotated in the notebook itself and follows the standard GAN formulation based on trying to minmax the Jensen-Shannon Divergence (JSD) using binary cross entropy as our loss function for both the generator and the discriminator.
 
 After 15 epochs:
 The final discriminator loss was: 0.681
